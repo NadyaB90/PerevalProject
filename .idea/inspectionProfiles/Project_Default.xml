@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="a" />
+            <item index="7" class="java.lang.String" itemvalue="br" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E111" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="telebot.types.Message" />
+          <option value="telebot.types.ReplyKeyboardMarkup" />
+          <option value="telebot.types.KeyboardButton" />
+          <option value="NewsPaper.news.models.choice_post" />
+          <option value="NewsPaper.news.models.Author.post_set" />
+          <option value="NewsPaper.news.apps.news" />
+          <option value="NewsPaper.NewsPaper.celery.Celery" />
+          <option value="NewsPaper.news.tasks.shared_task" />
+          <option value="NewsPaper.news.tasks.celery" />
+          <option value="NewsPaper.NewsPaper.celery.schedules" />
+          <option value="django.core.cache.delete" />
+          <option value="BulletinBoard.board.models.ckeditor_uploader" />
+          <option value="BulletinBoard.board.models.CHOISES" />
+          <option value="CHOICES" />
+          <option value="users.views.register" />
+          <option value="users.views.profile" />
+          <option value="PerevalProject.pereval.models.PerevalUser.objects" />
+          <option value="PerevalProject.pereval.models.Coords.objects" />
+          <option value="PerevalProject.pereval.models.Pereval.objects" />
+          <option value="PerevalProject.pereval.models.Images.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
