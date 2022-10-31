@@ -58,3 +58,4 @@ class AuthEmailPerevalSerializer(serializers.ModelSerializer):
         depth = 1
         fields = ["beautyTitle",  "title", "other_titles", "connect", "add_time", "coords",
                   "level_winter", "level_summer", "level_autumn", "level_spring"]
+
