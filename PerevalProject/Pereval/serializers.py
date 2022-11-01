@@ -50,3 +50,12 @@ class ImageSerializer(serializers.ModelSerializer):
             image = PerevalImages.objects.create(**image_data)
             PerevalImages.objects.create(foto=image, pereval=pereval)
         return pereval
+
+
+class AuthEmailPerevalSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PerevalAdded
+        depth = 1
+        fields = ["beautyTitle",  "title", "other_titles", "connect", "add_time", "coords",
+                  "level_winter", "level_summer", "level_autumn", "level_spring"]
+
